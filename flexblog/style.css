@@ -1,0 +1,36 @@
+/*Resetando os estilos padrões do navegador*/
+body, h1, h2, il, li, a {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Trocando a fonte da página e sua cor*/
+body {
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  color: #222222;
+}
+
+/*Removendo o estilo da lista*/
+ul {
+  list-style: none;
+}
+
+/*Removendo o estilo do link*/
+a{
+  text-decoration: none;
+}
+
+/*Transformando as imagens em elementos do tipo bloco e definindo a largura máxima*/
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  width: 300px;
+  background: tomato;
+}
